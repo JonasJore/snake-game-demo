@@ -3,10 +3,6 @@ import javax.swing.JComponent;
 import java.awt.Graphics;
 import java.awt.Image;
 
-enum Direction {
-    LEFT, RIGHT, UP, DOWN
-}
-
 public class Snake extends JComponent {
     private final int DOT_SIZE;
     private int snakeJointsOnStart;
